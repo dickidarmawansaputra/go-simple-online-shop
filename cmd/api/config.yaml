@@ -1,0 +1,14 @@
+app:
+  name: go-simple-online-shop
+  
+db:
+  host: localhost
+  port: "3306"
+  db_name: go-simple-online-shop
+  user: dickids
+  password: rahasia
+  connection_pool:
+    max_idle_connection: 10
+    max_open_connection: 30
+    max_lifetime_connection: 60 #second
+    max_idletime_connection: 60 #second
