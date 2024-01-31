@@ -1,0 +1,17 @@
+### Get List Products
+GET http://localhost:8080/products?cursor=1&size=10
+Content-Type: application/json
+
+### Create Product
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "name": "Product Test",
+    "stock": 10,
+    "price": 100000
+}
+
+### Get Product Detail
+GET http://localhost:8080/products/sku/f0e49575-f81d-4ddd-8e7e-68f1afbc34
+Content-Type: application/json

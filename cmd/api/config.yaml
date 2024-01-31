@@ -1,6 +1,10 @@
 app:
   name: go-simple-online-shop
-  
+  port: ":8080"
+  encryption:
+    salt: 10
+    jwt_secret: "secret"
+
 db:
   host: localhost
   port: "3306"
